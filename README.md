@@ -1,0 +1,3 @@
+# AdminTemplate
+
+Blazor Admin Template
