@@ -1,0 +1,8 @@
+﻿:root {
+    --mud-palette-appbar-background: #fff !important;
+    --mud-palette-appbar-text: #5d6778 !important;
+}
+
+.app-bar-shadow {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+}
