@@ -5,6 +5,18 @@
     --mud-appbar-height: 56px !important;
 }
 
+body {
+    --mud-custom-left-nav-border-size: 5px;
+}
+
 .app-bar-custom {
     border-bottom: 1px solid #e7e9ed;
+}
+
+.mud-navmenu.mud-navmenu-default .mud-nav-link {
+    border-left: var(--mud-custom-left-nav-border-size) solid rgba(0,0,0,0);
+}
+
+.mud-navmenu.mud-navmenu-default .mud-nav-link.active:not(.mud-nav-link-disabled) {
+    border-left: var(--mud-custom-left-nav-border-size) solid var(--mud-palette-primary);
 }
