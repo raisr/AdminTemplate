@@ -3,6 +3,7 @@
     --mud-palette-appbar-text: #5d6778 !important;
     --mud-elevation-1: 0 1px 4px 0 rgba(0,0,0,.1) !important;
     --mud-appbar-height: 56px !important;
+    --mud-drawer-width-left: 250px !important;
 }
 
 body {
