@@ -4,10 +4,11 @@
     --mud-elevation-1: 0 1px 4px 0 rgba(0,0,0,.1) !important;
     --mud-appbar-height: 60px !important;
     --mud-drawer-width-left: 250px !important;
+    --mud-palette-primary: #f09021 !important;
 }
 
 body {
-    --mud-custom-left-nav-border-size: 5px;
+    --mud-custom-right-nav-border-size: 2px;
     background: #f5f6fe;
 }
 
@@ -16,12 +17,13 @@ body {
 }
 
 .mud-navmenu.mud-navmenu-default .mud-nav-link {
-    border-left: var(--mud-custom-left-nav-border-size) solid rgba(0,0,0,0);
+    border-right: var(--mud-custom-right-nav-border-size) solid rgba(0,0,0,0);
 }
 
-.mud-navmenu.mud-navmenu-default .mud-nav-link.active:not(.mud-nav-link-disabled) {
-    border-left: var(--mud-custom-left-nav-border-size) solid var(--mud-palette-primary);
-}
+    .mud-navmenu.mud-navmenu-default .mud-nav-link.active:not(.mud-nav-link-disabled) {
+        border-right: var(--mud-custom-right-nav-border-size) solid var(--mud-palette-primary);
+        background-color: transparent;
+    }
 
 .mud-drawer-header {
     margin-bottom: 1rem !important;
@@ -29,4 +31,9 @@ body {
     padding-left: 1rem;
     padding-right: 0px;
     padding-bottom: 0px;
+}
+
+.mud-nav-link {
+    padding: .875rem 1rem !important;
+    font-weight: normal !important;
 }
