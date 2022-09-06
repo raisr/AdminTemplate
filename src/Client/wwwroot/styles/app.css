@@ -2,7 +2,7 @@
     --mud-palette-appbar-background: #fff !important;
     --mud-palette-appbar-text: #5d6778 !important;
     --mud-elevation-1: 0 1px 4px 0 rgba(0,0,0,.1) !important;
-    --mud-appbar-height: 56px !important;
+    --mud-appbar-height: 60px !important;
     --mud-drawer-width-left: 250px !important;
 }
 
@@ -21,4 +21,12 @@ body {
 
 .mud-navmenu.mud-navmenu-default .mud-nav-link.active:not(.mud-nav-link-disabled) {
     border-left: var(--mud-custom-left-nav-border-size) solid var(--mud-palette-primary);
+}
+
+.mud-drawer-header {
+    margin-bottom: 1rem !important;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 0px;
+    padding-bottom: 0px;
 }
